@@ -3,7 +3,7 @@ Run while the server is up (uvicorn or Docker):  python test_api.py
 """
 import requests
 
-URL = "http://127.0.0.1:8000/generate"
+URL = "https://mdm-exp8.onrender.com/generate"
 
 prompts = [
     "What is artificial intelligence?",
